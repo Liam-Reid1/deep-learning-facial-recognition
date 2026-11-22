@@ -1,0 +1,26 @@
+﻿Path to dataset files: C:\Users\User\.cache\kagglehub\datasets\jensdhondt\extendedyaleb-cropped-full\versions\1
+16128 images, 28 subjects, sizes {(192, 168): 16128}, skipped {'unparsed': 252}
+device cuda, params 11.2M, augment=True
+epoch 1/15  loss 0.4151  val_acc 0.9814
+epoch 2/15  loss 0.0605  val_acc 0.9632
+epoch 3/15  loss 0.0454  val_acc 0.9434
+epoch 4/15  loss 0.0421  val_acc 0.9843
+epoch 5/15  loss 0.0312  val_acc 0.9855
+epoch 6/15  loss 0.0235  val_acc 0.9818
+epoch 7/15  loss 0.0215  val_acc 0.7755
+epoch 8/15  loss 0.0190  val_acc 0.9810
+epoch 9/15  loss 0.0141  val_acc 0.9876
+epoch 10/15  loss 0.0144  val_acc 0.7197
+epoch 11/15  loss 0.0258  val_acc 0.6788
+epoch 12/15  loss 0.0150  val_acc 0.9822
+epoch 13/15  loss 0.0112  val_acc 0.9570
+epoch 14/15  loss 0.0166  val_acc 0.8504
+epoch 15/15  loss 0.0119  val_acc 0.9326
+test set:
+  clean          acc 0.9930
+  dark           acc 0.9802
+  bright         acc 0.9921
+  occ_eyes       acc 0.9835
+  occ_mouth      acc 0.9893
+  occ_left_half  acc 0.9591
+wrote runs\aug/results.json, accuracy_vs_illumination.png, confusion_clean.png
